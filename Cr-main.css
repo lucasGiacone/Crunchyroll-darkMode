@@ -229,7 +229,7 @@ h1{
     line-height: 1;
     font-weight: 400;
     padding-bottom: 8px;
-    border-bottom: 2px solid #252525;
+    border-bottom: 2px solid #252525!important;
     text-align: left;
 }
 #main_content{
@@ -239,16 +239,16 @@ h1{
     position: relative;
     margin-bottom: -8px;
     padding-top: 10px;
-    border-top: 1px solid #252525;
+    border-top: 1px solid #252525!important;
 }
 .guestbook-sort-bar {
-    border-top: 1px solid #252525;
+    border-top: 1px solid #252525!important;
     padding-top: 3px;
     background-color: #ebebeb;
 }
 .guestbook-spoiler-checkbox {
     margin-top: 4px;
-    color: #df6300;
+    color: #888!important;
     margin-left: 16px;
 }
 .collection-carousel-arrow {
@@ -257,7 +257,7 @@ h1{
     display: block;
     position: absolute;
     top: 5px;
-    background: url(https://iili.io/dqaUlI.png) no-repeat -40px 42px;
+    background: url(https://iili.io/dqaUlI.png) no-repeat -40px 42px!important;
     z-index: 99;
 }
 textarea {
@@ -296,38 +296,38 @@ textarea {
     color: #0b0b0b;
 }
 input[name="submit_comment_btn"]{
-    display: block;
-    height: 44px;
-    background: #252525;
-    border: 1px solid #1b1b1b;
-    margin-right: 5px;
-    color: #888;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 44px;
-    text-align: center;
-    border-radius: 4px;
+    display: block!important;
+    height: 44px!important;
+    background: #252525!important;
+    border: 1px solid #1b1b1b!important;
+    margin-right: 5px!important;
+    color: #888!important;
+    cursor: pointer!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    line-height: 44px!important;
+    text-align: center!important;
+    border-radius: 4px!important;
     text-shadow: none!important;
 }
 input[name="more_comments"]{
-    display: block;
-    background: #252525;
-    border: 1px solid #1b1b1b;
-    margin-right: 5px;
-    color: #888;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 4px;
+    display: block!important;
+    background: #252525!important;
+    border: 1px solid #1b1b1b!important;
+    margin-right: 5px!important;
+    color: #888!important;
+    cursor: pointer!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    line-height: 30px!important;
+    text-align: center!important;
+    border-radius: 4px!important;
     text-shadow: none!important;
 }
 .new-template-body h3 {
     font-size: 13px;
     font-weight: 700;
-    border-top: 2px solid #252525;
+    border-top: 2px solid #252525!important;
     padding: 10px 0 8px;
 }
 input[name="q"]{
@@ -414,9 +414,42 @@ input[name="q"]{
     background: rgb(27, 27, 27) !important;
 }
 .landscape-element-modified{
-    width: 296px;
     display: block;
     padding: 4px;
     position: relative;
     background: rgb(27, 27, 27) !important;
+}
+#showmedia_free_trial_signup {
+    position: relative;
+    border: 1px solid #2b2b2b!important;
+    background: #252525!important;
+}
+.showmedia-free-trial-header {
+    font-weight: 700;
+    font-size: 14px;
+    border-bottom: 1px solid #1b1b1b!important;
+    padding: 7px 12px;
+    background: #252525!important;
+    margin-bottom: 16px;
+}
+input[name="new_email"], input[name="new_name"], input[name="password"]{
+    display: block;
+    background: #252525;
+    margin-right: 5px;
+    color: #888;
+    cursor: pointer;
+    line-height: 44px;
+    text-align: left!important;
+    text-shadow: none!important;
+}
+.landscape-grid .wrapper:hover {
+    background: #1b1b1b!important;
+}
+#sidebar .landscape-element-modified .series-title {
+    width: -webkit-fill-available;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#sidebar .shows .landscape-element-modified .series-info {
+    width: 232px;
 }

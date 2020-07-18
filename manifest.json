@@ -17,8 +17,8 @@
             "all_frames": true
         },
         {
-            "matches": ["*://*.crunchyroll.com/*/*"],
-            "css": [""],
+            "matches": ["*://*.crunchyroll.com/*"],
+            "css": ["Cr-main.css"],
             "run_at": "document_end",
             "all_frames": true
         }
