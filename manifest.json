@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Crunchyroll DarkMode",
+    "description": "DarkMode for Crunchyroll",
+    "browser_action": {
+   	 "default_title": "Crunchyroll DarkMode",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.crunchyroll.com/*"],
+            "css": ["Cr.css"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ]
+}
