@@ -15,6 +15,12 @@
             "js": ["index.js"],
             "run_at": "document_end",
             "all_frames": true
+        },
+        {
+            "matches": ["*://*.crunchyroll.com/*/*"],
+            "css": [""],
+            "run_at": "document_end",
+            "all_frames": true
         }
     ]
 }
