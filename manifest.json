@@ -11,7 +11,8 @@
     "content_scripts": [
         {
             "matches": ["*://*.crunchyroll.com/*"],
-            "css": ["Cr.css"],
+            "css": ["Cr-main.css"],
+            "js": ["index.js"],
             "run_at": "document_end",
             "all_frames": true
         }

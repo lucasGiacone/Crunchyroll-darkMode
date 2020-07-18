@@ -1,0 +1,1 @@
+document.getElementById("games_button").setAttribute("id", "games_btn");
