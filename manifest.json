@@ -3,6 +3,8 @@
     "version": "1.0",
     "name": "Crunchyroll DarkMode",
     "description": "DarkMode for Crunchyroll",
+    "author": "Lucas Giacone",
+    "icons": { "48": "icon.png" },
     "browser_action": {
    	 "default_title": "Crunchyroll DarkMode",
    	 "default_popup": "index.html",
