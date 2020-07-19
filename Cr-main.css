@@ -85,7 +85,7 @@ h1{
     color: #888!important;
 }
 .welcome-forum-category a {
-    color: #a0a0a0;
+    color: #a0a0a0!important;
     font-size: 14px;
     font-weight: 700;
 }
@@ -234,6 +234,7 @@ h1{
 }
 #main_content{
     border-right: 2px solid #252525;
+    padding: 4px;
 }
 .guestbook-list {
     position: relative;
@@ -452,4 +453,42 @@ input[name="new_email"], input[name="new_name"], input[name="password"]{
 }
 #sidebar .shows .landscape-element-modified .series-info {
     width: 232px;
+}
+.container-shadow-dark{
+    -webkit-box-shadow: 0 4px 5px rgba(141, 141, 141, 0.55)!important;
+}
+.load-more{
+    display: block!important;
+    background: #252525!important;
+    border: 1px solid #1b1b1b!important;
+    margin-right: 5px!important;
+    color: #888!important;
+    cursor: pointer!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    line-height: 30px!important;
+    text-align: center!important;
+    border-radius: 4px!important;
+    text-shadow: none!important;
+}
+.load-more:hover{
+    box-shadow:  0 4px 5px rgba(141, 141, 141, 0.55)!important;
+    -webkit-box-shadow: 0 4px 5px rgba(141, 141, 141, 0.55)!important;
+}
+.landscape-grid li:hover{
+    padding-bottom: 4px;
+    box-shadow:  0 4px 5px rgba(141, 141, 141, 0.55)!important;
+    -webkit-box-shadow: 0 4px 5px rgba(141, 141, 141, 0.55)!important;
+}
+.main-tabs a.selected, .main-tabs a.selected:hover {
+    background: #171717!important;
+    color: #bbb!important;
+    font-weight: 700;
+}
+.main-tabs {
+    background: #252525!important;
+    padding: 2px 4px!important;
+}
+#template_container.template-container.no-adskin {
+    padding-top: 10px!important;
 }
